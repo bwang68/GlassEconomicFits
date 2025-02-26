@@ -1,0 +1,395 @@
+
+Testing Results Summary:
+--------------------------------------------------
+
+Participant 1:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.7550
+Gamma: 1.0000
+Error: 0.00
+
+Participant 2:
+Alpha: 0.3200
+Beta: 0.3300
+Lambda: 1.3190
+Gamma: 0.9550
+Error: 3.00
+
+Participant 3:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.2550
+Gamma: 1.0000
+Error: 5.00
+
+Participant 4:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.8050
+Gamma: 0.9550
+Error: 9.00
+
+Participant 5:
+Alpha: 0.3300
+Beta: 0.3700
+Lambda: 1.0250
+Gamma: 0.9050
+Error: 4.00
+
+Participant 6:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.7670
+Error: 0.00
+
+Participant 7:
+Alpha: 0.8800
+Beta: 0.9200
+Lambda: 1.0490
+Gamma: 0.8550
+Error: 9.00
+
+Participant 8:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0550
+Gamma: 0.7550
+Error: 0.00
+
+Participant 9:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.2550
+Gamma: 1.0000
+Error: 28.00
+
+Participant 10:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0550
+Gamma: 0.7550
+Error: 0.00
+
+Participant 11:
+Alpha: 0.9600
+Beta: 1.0000
+Lambda: 1.5300
+Gamma: 0.5800
+Error: 5.00
+
+Participant 12:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.5550
+Gamma: 0.8500
+Error: 10.00
+
+Participant 13:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0550
+Gamma: 0.7550
+Error: 11.00
+
+Participant 14:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0550
+Gamma: 0.7550
+Error: 11.00
+
+Participant 15:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.7670
+Error: 11.00
+
+Participant 16:
+Alpha: 0.9700
+Beta: 1.0000
+Lambda: 1.4400
+Gamma: 0.6300
+Error: 26.00
+
+Participant 17:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.7670
+Error: 12.00
+
+Participant 18:
+Alpha: 0.9700
+Beta: 1.0000
+Lambda: 1.4400
+Gamma: 0.6300
+Error: 22.00
+
+Participant 19:
+Alpha: 0.8000
+Beta: 0.8400
+Lambda: 1.5790
+Gamma: 0.2300
+Error: 20.00
+
+Participant 20:
+Alpha: 0.9700
+Beta: 0.9970
+Lambda: 1.1440
+Gamma: 0.7300
+Error: 20.00
+
+Participant 21:
+Alpha: 0.9600
+Beta: 1.0000
+Lambda: 1.5300
+Gamma: 0.5800
+Error: 8.00
+
+Participant 22:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 9.00
+
+Participant 23:
+Alpha: 0.5300
+Beta: 0.5800
+Lambda: 1.1620
+Gamma: 0.9590
+Error: 43.00
+
+Participant 24:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.5550
+Gamma: 0.8500
+Error: 31.00
+
+Participant 25:
+Alpha: 0.9500
+Beta: 1.0000
+Lambda: 1.5100
+Gamma: 0.5460
+Error: 20.00
+
+Participant 26:
+Alpha: 0.9520
+Beta: 1.0000
+Lambda: 1.6050
+Gamma: 0.4550
+Error: 39.00
+
+Participant 27:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 25.00
+
+Participant 28:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 9.00
+
+Participant 29:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 16.00
+
+Participant 30:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 25.00
+
+Participant 31:
+Alpha: 0.4000
+Beta: 0.4600
+Lambda: 1.0450
+Gamma: 0.9460
+Error: 49.00
+
+Participant 32:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.7670
+Error: 29.00
+
+Participant 33:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 41.00
+
+Participant 34:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0550
+Gamma: 0.7550
+Error: 43.00
+
+Participant 35:
+Alpha: 0.9900
+Beta: 1.0000
+Lambda: 1.2680
+Gamma: 0.9950
+Error: 73.00
+
+Participant 36:
+Alpha: 0.9600
+Beta: 1.0000
+Lambda: 1.2400
+Gamma: 0.6780
+Error: 27.00
+
+Participant 37:
+Alpha: 0.0570
+Beta: 0.2600
+Lambda: 1.0000
+Gamma: 0.4610
+Error: 67.00
+
+Participant 38:
+Alpha: 0.9600
+Beta: 1.0000
+Lambda: 1.2400
+Gamma: 0.6780
+Error: 35.00
+
+Participant 39:
+Alpha: 0.9700
+Beta: 0.9980
+Lambda: 1.1470
+Gamma: 0.7260
+Error: 34.00
+
+Participant 40:
+Alpha: 0.2700
+Beta: 0.5300
+Lambda: 1.0250
+Gamma: 0.4300
+Error: 71.00
+
+Participant 41:
+Alpha: 0.9400
+Beta: 1.0000
+Lambda: 1.0050
+Gamma: 0.9950
+Error: 71.00
+
+Participant 42:
+Alpha: 0.2550
+Beta: 0.3050
+Lambda: 1.0550
+Gamma: 0.8980
+Error: 52.00
+
+Participant 43:
+Alpha: 0.9600
+Beta: 1.0000
+Lambda: 1.5300
+Gamma: 0.5800
+Error: 42.00
+
+Participant 44:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 36.00
+
+Participant 45:
+Alpha: 0.9600
+Beta: 1.0000
+Lambda: 1.5300
+Gamma: 0.5800
+Error: 35.00
+
+Participant 46:
+Alpha: 0.9700
+Beta: 1.0000
+Lambda: 1.4400
+Gamma: 0.6300
+Error: 55.00
+
+Participant 47:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 54.00
+
+Participant 48:
+Alpha: 0.9700
+Beta: 1.0000
+Lambda: 1.4400
+Gamma: 0.6300
+Error: 48.00
+
+Participant 49:
+Alpha: 0.9520
+Beta: 1.0000
+Lambda: 1.6050
+Gamma: 0.4550
+Error: 55.00
+
+Participant 50:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3550
+Error: 56.00
+
+Participant 51:
+Alpha: 0.0580
+Beta: 0.2300
+Lambda: 1.0370
+Gamma: 0.3800
+Error: 64.00
+
+Participant 52:
+Alpha: 0.3040
+Beta: 0.3550
+Lambda: 1.0450
+Gamma: 0.9010
+Error: 56.00
+
+Participant 53:
+Alpha: 0.9700
+Beta: 1.0000
+Lambda: 1.2600
+Gamma: 0.8560
+Error: 74.00
+
+Participant 54:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.8050
+Gamma: 0.9550
+Error: 79.00
+
+Participant 55:
+alpha: 0.3485
+beta: 0.6602
+lambda: 1.0634
+gamma: 0.3148
+error: 71.0000
+
+Participant 56:
+Alpha: 0.9100
+Beta: 1.0000
+Lambda: 1.3800
+Gamma: 0.5700
+Error: 70.00

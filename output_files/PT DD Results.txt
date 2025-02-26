@@ -1,0 +1,449 @@
+PT DD Results
+
+Participant 1:
+Alpha: 0.3525
+Beta: 0.0675
+Lambda: 1.1264
+Gamma: 0.5987
+Time Window: 68
+Error: 16.00
+
+Participant 2:
+Alpha: 0.5000
+Beta: 0.5000
+Lambda: 1.0000
+Gamma: 0.5000
+Time Window: 68
+Error: 17.00
+
+Participant 3:
+Alpha: 0.3525
+Beta: 0.0675
+Lambda: 1.1264
+Gamma: 0.5987
+Time Window: 68
+Error: 5.00
+
+Participant 4:
+Alpha: 0.5000
+Beta: 0.5000
+Lambda: 1.0000
+Gamma: 0.5000
+Time Window: 68
+Error: 9.00
+
+Participant 5:
+Alpha: 0.6519
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 13.00
+
+Participant 6:
+Alpha: 0.6519
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 42.00
+
+Participant 7:
+Alpha: 0.1682
+Beta: 0.0206
+Lambda: 1.1264
+Gamma: 0.2076
+Time Window: 68
+Error: 43.00
+
+Participant 8:
+Alpha: 0.6519
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 42.00
+
+Participant 9:
+Alpha: 0.1682
+Beta: 0.0206
+Lambda: 1.1264
+Gamma: 0.2076
+Time Window: 68
+Error: 28.00
+
+Participant 10:
+Alpha: 0.6519
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 42.00
+
+Participant 11:
+Alpha: 0.6519
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 36.00
+
+Participant 12:
+Alpha: 0.6865
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3268
+Time Window: 68
+Error: 41.00
+
+Participant 13:
+Alpha: 0.6865
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3268
+Time Window: 68
+Error: 52.00
+
+Participant 14:
+Alpha: 1.0000
+Beta: 0.4604
+Lambda: 1.1273
+Gamma: 0.0364
+Time Window: 68
+Error: 46.00
+
+Participant 15:
+Alpha: 0.6519
+Beta: 0.1813
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 49.00
+
+Participant 16:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3125
+Time Window: 68
+Error: 32.00
+
+Participant 17:
+Alpha: 1.0000
+Beta: 0.4604
+Lambda: 1.1273
+Gamma: 0.0364
+Time Window: 68
+Error: 47.00
+
+Participant 18:
+Alpha: 0.7188
+Beta: 0.4896
+Lambda: 1.0160
+Gamma: 0.3869
+Time Window: 68
+Error: 50.00
+
+Participant 19:
+Alpha: 1.0000
+Beta: 0.4604
+Lambda: 1.1273
+Gamma: 0.0364
+Time Window: 68
+Error: 47.00
+
+Participant 20:
+Alpha: 1.0000
+Beta: 0.4601
+Lambda: 1.1273
+Gamma: 0.0364
+Time Window: 68
+Error: 50.00
+
+Participant 21:
+Alpha: 0.6519
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 46.00
+
+Participant 22:
+Alpha: 1.0000
+Beta: 0.4601
+Lambda: 1.1273
+Gamma: 0.0364
+Time Window: 68
+Error: 48.00
+
+Participant 23:
+Alpha: 0.3156
+Beta: 0.4530
+Lambda: 1.0000
+Gamma: 0.1089
+Time Window: 68
+Error: 52.00
+
+Participant 24:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3125
+Time Window: 68
+Error: 36.00
+
+Participant 25:
+Alpha: 0.8141
+Beta: 0.9004
+Lambda: 1.6009
+Gamma: 0.3980
+Time Window: 68
+Error: 47.00
+
+Participant 26:
+Alpha: 1.0000
+Beta: 0.8440
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 52.00
+
+Participant 27:
+Alpha: 1.0000
+Beta: 0.4604
+Lambda: 1.1273
+Gamma: 0.0364
+Time Window: 68
+Error: 46.00
+
+Participant 28:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3125
+Time Window: 68
+Error: 36.00
+
+Participant 29:
+Alpha: 0.5915
+Beta: 0.0516
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 47.00
+
+Participant 30:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3125
+Time Window: 68
+Error: 45.00
+
+Participant 31:
+Alpha: 0.3156
+Beta: 0.4530
+Lambda: 1.0000
+Gamma: 0.1089
+Time Window: 68
+Error: 58.00
+
+Participant 32:
+Alpha: 1.0000
+Beta: 0.0000
+Lambda: 1.0000
+Gamma: 0.0957
+Time Window: 68
+Error: 53.00
+
+Participant 33:
+Alpha: 1.0000
+Beta: 0.1056
+Lambda: 1.0000
+Gamma: 0.3869
+Time Window: 68
+Error: 73.00
+
+Participant 34:
+Alpha: 0.6865
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3268
+Time Window: 68
+Error: 74.00
+
+Participant 35:
+Alpha: 0.1682
+Beta: 0.0206
+Lambda: 1.1264
+Gamma: 0.2076
+Time Window: 68
+Error: 83.00
+
+Participant 36:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3125
+Time Window: 68
+Error: 39.00
+
+Participant 37:
+Alpha: 0.0786
+Beta: 0.5543
+Lambda: 1.3440
+Gamma: 0.0000
+Time Window: 68
+Error: 71.00
+
+Participant 38:
+Alpha: 1.0000
+Beta: 0.8442
+Lambda: 1.1433
+Gamma: 0.0364
+Time Window: 68
+Error: 59.00
+
+Participant 39:
+Alpha: 0.7188
+Beta: 0.4896
+Lambda: 1.0160
+Gamma: 0.3869
+Time Window: 68
+Error: 48.00
+
+Participant 40:
+Alpha: 0.0786
+Beta: 0.7446
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 80.00
+
+Participant 41:
+Alpha: 0.3156
+Beta: 0.4530
+Lambda: 1.0000
+Gamma: 0.1089
+Time Window: 68
+Error: 75.00
+
+Participant 42:
+Alpha: 0.6065
+Beta: 0.0000
+Lambda: 1.0000
+Gamma: 0.0540
+Time Window: 68
+Error: 49.00
+
+Participant 43:
+Alpha: 0.5915
+Beta: 0.0516
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 62.00
+
+Participant 44:
+Alpha: 0.8740
+Beta: 0.0000
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 62.00
+
+Participant 45:
+Alpha: 1.0000
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3125
+Time Window: 68
+Error: 48.00
+
+Participant 46:
+Alpha: 0.8740
+Beta: 0.0000
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 62.00
+
+Participant 47:
+Alpha: 0.6065
+Beta: 0.0000
+Lambda: 1.0000
+Gamma: 0.0540
+Time Window: 68
+Error: 70.00
+
+Participant 48:
+Alpha: 0.7188
+Beta: 0.4896
+Lambda: 1.0160
+Gamma: 0.3869
+Time Window: 68
+Error: 62.00
+
+Participant 49:
+Alpha: 1.0000
+Beta: 0.4601
+Lambda: 1.1273
+Gamma: 0.0364
+Time Window: 68
+Error: 65.00
+
+Participant 50:
+Alpha: 0.5915
+Beta: 0.0516
+Lambda: 1.0000
+Gamma: 0.0000
+Time Window: 68
+Error: 71.00
+
+Participant 51:
+Alpha: 0.6865
+Beta: 1.0000
+Lambda: 1.0000
+Gamma: 0.3268
+Time Window: 68
+Error: 65.00
+
+Participant 52:
+Alpha: 0.1682
+Beta: 0.0206
+Lambda: 1.1264
+Gamma: 0.2076
+Time Window: 68
+Error: 61.00
+
+Participant 53:
+Alpha: 1.0000
+Beta: 0.7457
+Lambda: 1.0000
+Gamma: 0.0957
+Time Window: 68
+Error: 74.00
+
+Participant 54:
+Alpha: 0.5000
+Beta: 0.5000
+Lambda: 1.0000
+Gamma: 0.5000
+Time Window: 68
+Error: 79.00
+
+Participant 55:
+Alpha: 0.0898
+Beta: 0.4994
+Lambda: 1.0000
+Gamma: 0.3125
+Time Window: 68
+Error: 75.00
+
+Participant 56:
+Alpha: 0.7188
+Beta: 0.4896
+Lambda: 1.0160
+Gamma: 0.3869
+Time Window: 68
+Error: 74.00
