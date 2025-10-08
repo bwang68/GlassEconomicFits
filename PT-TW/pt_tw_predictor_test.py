@@ -162,16 +162,7 @@ class PT_TW_Model:
     def test_parameter_set(self, participant: int, params: Parameters) -> float:
         """Test a single set of parameters for a participant"""
         preds = self.predict_sales(participant, params)
-        total_error = 0
-        
-        for day in range(68):
-            vals = self.info_return(day, participant)
-            sold = vals[0]
-            pred = preds[day]
-            day_err = abs(sold-pred)
-            total_error += day_err
-            
-        return total_error
+        return self.mean_proportional_error(participant, preds)
 
     def predict_sales(self, participant: int, params: Parameters) -> List[int]:
         """Make sales predictions for a participant"""
@@ -193,6 +184,26 @@ class PT_TW_Model:
             predictions.append(pred)
 
         return predictions
+
+    def mean_proportional_error(self, participant: int, predictions: List[int]) -> float:
+        """Calculate mean proportional error for prediction set"""
+        total_error = 0.0
+        valid_days = 0
+
+        for day in range(68):
+            sold, stored, _ = self.info_return(day, participant)
+
+            if stored == 0:
+                continue
+
+            day_err = abs(predictions[day] - sold) / stored
+            total_error += day_err
+            valid_days += 1
+
+        if valid_days == 0:
+            return float("inf")
+
+        return total_error / valid_days
 
     def info_return(self, day: int, participant: int) -> Tuple[int, int, int]:
         """Get participant data for a day"""
@@ -314,7 +325,7 @@ def test_all_participants(model: PT_TW_Model, parameter_sets: pd.DataFrame) -> d
                 'params': params,
                 'error': error
             })
-            print(f"Parameter set {idx}: error = {error:.2f}")
+            print(f"Parameter set {idx}: mean proportional error = {error:.4f}")
             
     return results
 
@@ -387,6 +398,23 @@ def generate_predictions_df(input_csv: str, params_file: str, output_csv: str):
     original_df = original_df[new_columns]
     original_df.to_csv(output_csv, index=False)
 
+
+def _format_participant_summary(participant: int, best_result: dict) -> List[str]:
+    """Format summary lines for a participant's best parameter set."""
+    params: Parameters = best_result['params']
+    error: float = best_result['error']
+
+    return [
+        f"Participant {participant}:",
+        f"Alpha: {params.a:.4f}",
+        f"Beta: {params.b:.4f}",
+        f"Lambda: {params.l:.4f}",
+        f"Gamma: {params.g:.4f}",
+        f"Time Window: {params.tw:.2f}",
+        f"Mean Proportional Error: {error:.6f}",
+        ""
+    ]
+
 def main():
     # Initialize model
     model = PT_TW_Model()
@@ -409,21 +437,33 @@ def main():
     # Print summary
     print("\nTesting Results Summary:")
     print("-" * 50)
-    
-    for participant, participant_results in results.items():
-        if not participant_results:  # Skip if no results
+
+    summary_lines = [
+        "Testing Results Summary (Mean Proportional Errors):",
+        "-" * 50,
+        ""
+    ]
+
+    missing_participants: List[int] = []
+
+    for participant, participant_results in sorted(results.items()):
+        if not participant_results:
             print(f"\nParticipant {participant}: No parameter sets tested")
+            missing_participants.append(participant)
             continue
-            
-        print(f"\nParticipant {participant}:")
+
         best_result = min(participant_results, key=lambda x: x['error'])
+
+        print(f"\nParticipant {participant}:")
         print(f"Best parameter set (index {best_result['set_index']}):")
         print(f"Alpha: {best_result['params'].a:.4f}")
         print(f"Beta: {best_result['params'].b:.4f}")
         print(f"Lambda: {best_result['params'].l:.4f}")
         print(f"Gamma: {best_result['params'].g:.4f}")
         print(f"Time Window: {best_result['params'].tw}")
-        print(f"Error: {best_result['error']:.2f}")
+        print(f"Mean proportional error: {best_result['error']:.4f}")
+
+        summary_lines.extend(_format_participant_summary(participant, best_result))
 
     # Add these lines at the end of main()
     input_csv = "/Users/brianwang/python-projs/GlassLab/PT_TW_DD PREDICTIONS.csv"
@@ -431,6 +471,17 @@ def main():
     output_csv = "/Users/brianwang/python-projs/GlassLab/PT_TW_WITH_PREDICTIONS.csv"
     
     generate_predictions_df(input_csv, params_file, output_csv)
+
+    if summary_lines:
+        output_path = Path(__file__).resolve().parents[1] / "output_files" / "PT TW Results.txt"
+        output_text = "\n".join(summary_lines).rstrip() + "\n"
+        output_path.write_text(output_text, encoding="utf-8")
+        print(f"\nSaved summary to {output_path}")
+
+    if missing_participants:
+        print("\nParticipants without matching parameter sets:")
+        for participant in missing_participants:
+            print(f"  - {participant}")
 
 if __name__ == "__main__":
     main()
